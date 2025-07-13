@@ -14,26 +14,26 @@
 
 ### Go環境が必要です
 ```bash
-go install github.com/kznagamori/WebpDownloader@latest
+go install github.com/kznagamori/go_WebpDownloader@latest
 ```
 
 ### ソースからビルド
 ```bash
-git clone https://github.com/kznagamori/WebpDownloader.git
-cd WebpDownloader
+git clone https://github.com/kznagamori/go_WebpDownloader.git
+cd go_WebpDownloader
 go mod tidy
-go build -o WebpDownloader
+go build -o go_WebpDownloader
 ```
 
 ## 使用方法
 
 ```bash
-WebpDownloader <URL>
+go_WebpDownloader <URL>
 ```
 
 ### 例
 ```bash
-WebpDownloader https://example.com/gallery
+go_WebpDownloader https://example.com/gallery
 ```
 
 ## 動作条件
